@@ -6,4 +6,4 @@ COPY target/app.jar /usr/app/
 
 WORKDIR /usr/app/
 
-ENTRYPOINT [ "java","-jar","/app.jar"]
+ENTRYPOINT [ "java","-jar","/usr/app/app.jar"]
